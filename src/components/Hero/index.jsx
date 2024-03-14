@@ -1,10 +1,10 @@
-import Header from "../Header";
+
 import "./styles.css";
 
 export default function Hero() {
     return (
         <section id="hero">
-            <Header />
+            
             <div id="container">
                 <div id="card">
                     <h1 id="frase">FRASE MOTIVACIONAL DE IMPACTO</h1>
