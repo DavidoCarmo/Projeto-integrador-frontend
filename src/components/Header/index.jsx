@@ -5,12 +5,11 @@ export default function Header() {
     return (
         <header id="menu">
             <nav id="items-menu">
-                <Link to={"/"} className="text-right">Home</Link>
-                <Link to={{ pathname: location.pathname, hash: "#details" }} className="text-right">Detalhes</Link>
-                <Link to={{ pathname: location.pathname, hash: "#about" }} className="text-right">Sobre</Link>
-                <Link to={{ pathname: location.pathname, hash: "#contact" }} className="text-right">Contato</Link>
-                <Link to={"/agendamento"} className="text-right">Agendamento</Link>
-                <Link to={"/login"} className="text-right">Login</Link>
+                <Link to={"/"} className="text-center">Home</Link>
+                <Link to={{ pathname: location.pathname, hash: "#details" }} className="text-center">Informaçoes</Link>
+                <Link to={{ pathname: location.pathname, hash: "#about" }} className="text-center">Sobre</Link>
+                <Link to={{ pathname: location.pathname, hash: "#contact" }} className="text-center">Agende</Link>
+                
             </nav>
         </header>
 
