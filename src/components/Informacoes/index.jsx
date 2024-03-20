@@ -1,6 +1,6 @@
 
 import './styles.css';
-
+import ImagemPessoa from '../../assets/foto-mulher.avif'
 export default function InfoPage() {
     return (
         <section id="info">
@@ -12,12 +12,12 @@ export default function InfoPage() {
                     vel tincidunt quam justo id urna.
                     <h1>mais sobre a Psicanalise</h1>
                 </p>
-
             </div>
-
-            <div id='foto'>
-                <h4>foto</h4>
-                <img src="" alt="" />
+            <div id="professional">
+                <h1>Jean Marcel</h1>
+            </div>
+            <div id="photo">
+                <img src={ImagemPessoa} alt="" />
             </div>
         </section>
     );

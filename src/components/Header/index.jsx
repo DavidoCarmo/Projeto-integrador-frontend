@@ -6,8 +6,8 @@ export default function Header() {
         <header id="menu">
             <nav id="items-menu">
                 <Link to={"/"} className="text-center">Home</Link>
-                <Link to={{ pathname: location.pathname, hash: "#details" }} className="text-center">Informaçoes</Link>
-                <Link to={{ pathname: location.pathname, hash: "#about" }} className="text-center">Sobre</Link>
+                <Link to={{ pathname: location.pathname, hash: "#info" }} className="text-center">Sobre mim</Link>
+                <Link to={{ pathname: location.pathname, hash: "#about" }} className="text-center">Sobre a Psicanálise</Link>
                 <Link to={{ pathname: location.pathname, hash: "#contact" }} className="text-center">Agende</Link>
                 
             </nav>

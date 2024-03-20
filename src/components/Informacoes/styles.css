@@ -1,8 +1,28 @@
-.info-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: Arial, sans-serif;
+#info {
+    height: 70vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns:  30% 30% 40%;
+}
+
+#info-container {
+    width: auto;
+    height: auto;
+    background-color: blue;
+}
+
+#professional {
+    background-color: yellowgreen;
+}
+
+#photo {
+    background-color: rgb(5, 5, 5);
+    /* display: grid;
+    place-items: center;
+    place-content: center; */
+    
+    display: flex;
+    
 }
 
 #h1 {
@@ -14,8 +34,9 @@
     line-height: 1.5;
 }
 
-#info {
-    display: grid;
-    grid-template-rows: 80% 20%;
+#photo>img{
+    padding: 20px;
+    width: 100%;
+    margin:auto;
+    border-radius:80%
 }
-
