@@ -1,27 +1,23 @@
 #info {
-    height: 70vh;
+    height: 100vh;
     width: 100%;
     display: grid;
-    grid-template-columns:  30% 30% 40%;
+    grid-template-columns:  65%  35%;
 }
 
 #info-container {
     width: auto;
     height: auto;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
 }
 
-#professional {
-    background-color: yellowgreen;
-}
+
 
 #photo {
-    background-color: rgb(5, 5, 5);
-    /* display: grid;
-    place-items: center;
-    place-content: center; */
-    
+    background-color: rgb(255, 255, 255);
     display: flex;
+    
     
 }
 
@@ -39,4 +35,30 @@
     width: 100%;
     margin:auto;
     border-radius:80%
+}
+
+
+
+
+
+
+  
+
+#inicio01{
+    text-align: center;
+  margin-bottom: 30px;
+  font-size: 54px;
+  color: orange;
+  font-family:'Times New Roman', Times, serif
+  
+}
+
+#Texto01{
+    font-size: 1.1em;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+#texto04{
+    font-size: 1.1em;
+    text-align: justify;
 }
